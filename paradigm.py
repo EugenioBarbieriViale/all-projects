@@ -1,6 +1,6 @@
 import requests, html2text
 
-word = str(input())
+word = str(input("Enter a verb in latin: "))
 r = requests.get('https://www.dizionario-latino.com/dizionario-latino-italiano.php?parola='+word)
 
 line = []
